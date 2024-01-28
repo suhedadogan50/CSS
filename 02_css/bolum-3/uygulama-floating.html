@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        h1{
+            margin: 0;
+        }
+        Header, footer {
+            background-color: #8267be;
+            color: #FFBD35;
+            padding: 15px;
+        }
+        .col {
+            float:left;
+            padding: 15px 15px 15px 0; 
+        }
+        .menu {
+            width: 25%;
+           
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .menu li {
+            padding: 8px;
+            margin-bottom: 8px;
+            background-color: #502064;
+            color: #fff;
+        }
+        .menu li:hover{
+            cursor: pointer;
+            background-color: #8267BE;
+        }
+
+        .content {
+            width: 75%;
+            
+        }
+
+        .clearfiks::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <h2>Header</h2>
+    </header>
+   
+    <main  class="clearfiks">
+        <div class="menu col">
+            <ul>
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+            </ul>
+        </div>
+        <div class="content col">
+            <h1>Komple Web Geliştirme Eğitimi</h1>
+            <p>
+                    
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur at soluta ducimus perferendis quasi labore nemo accusantium commodi expedita maxime quia, ad ipsum fuga fugit! Est dolores tenetur in doloribus?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur at soluta ducimus perferendis quasi labore nemo accusantium commodi expedita maxime quia, ad ipsum fuga fugit! Est dolores tenetur in doloribus?
+                </p>
+            </div>
+        
+    </main>
+
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+
+</body>
+</html>
